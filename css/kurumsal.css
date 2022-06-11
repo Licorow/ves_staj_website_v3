@@ -1,0 +1,226 @@
+
+#kurumsal{
+    width: 100%;
+    min-height: 100vh;
+
+    text-align: center;
+
+        
+    background: url(../img/background-g416db831a_1920.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+
+    
+}
+
+#kurumsal .baslik{
+    color: #ffffff;
+    font-size: 2.5vw;
+    margin-bottom: 0;
+
+    padding: 2vw;
+    margin: 0;
+}
+#kurumsal .kutu{
+    height: 12vw;
+
+}
+#kurumsal .ust .kutu{
+
+    height: 12vw;
+    border-width: 0 0 0 0;
+}
+#kurumsal hr{
+    margin: 0;
+}
+#kurumsal .kapsam{
+    width: 100%;
+    min-height: 30vw;
+    margin: 0 auto;
+    border-radius: 10px;
+    overflow: hidden;
+    color: #ffffff;
+
+    background-attachment: fixed;
+    font-weight: 800;
+
+
+        
+    background: url(../img/office-g2fdda0f48_1920.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+
+}
+
+#kurumsal .kapsam, #kurumsal .kapsam2{
+   
+
+}
+
+#kurumsal .kapsam .kutucuk{
+    min-height: 30vw;
+    width: 100%;
+    margin: 0 auto;
+    padding: 3% 5%;
+    background-color: rgba(0, 0, 0, 0.7);
+
+}
+
+
+#kurumsal .ust{
+    height: 12vw;
+    overflow: hidden;
+
+
+}
+#kurumsal .ust .kutu h1{
+    font-size: 1.5vw;
+    text-align: center;
+
+    font-weight: bolder;
+
+    padding: 1vw 0 0 0;
+}
+#kurumsal .ust .kutu p{
+    font-size: 1vw;
+    text-align: justify;
+    padding:  0 1vw 1vw 1vw;
+}
+
+
+
+#kurumsal .orta{
+    height: 12vw;
+    overflow: hidden;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;     
+
+}
+#kurumsal .orta .kutu h1{
+    text-align: center;
+
+    font-size: 1.6vw;
+
+}
+#kurumsal .orta .kutu p{
+    text-align: justify;
+
+    padding: .5vw 5vw;
+    font-size: 1.1vw;
+}
+
+#kurumsal .kapsam2{
+    width: 100vw;
+    min-height: 25vw;
+    margin: 0 auto;
+
+    overflow: hidden;
+    color: #ffffff;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+
+}
+
+
+
+#kurumsal .orta .kutu{
+    width: 45vw;
+
+}
+
+
+#kurumsal .kapsam2 .kutu h1{
+    text-align: center;
+    font-size: 1.6vw;
+
+    
+    border-radius: 8px;
+    
+    text-shadow:
+    2px 2px 5px black,
+    -2px -2px 5px black,
+    2px -2px 5px black,
+    -2px 2px 5px black;
+
+}
+#kurumsal .kapsam2 .kutu{
+    text-align: left;
+    min-height: 25vw;
+    width: 100%;
+
+}
+#kurumsal .kapsam2 .kutu ul{
+    text-align: center;
+    list-style: none;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+#kurumsal .kapsam2 .kutu li{
+    display: inline-block;
+    transition: .3s;
+    cursor: pointer;
+
+    box-sizing: content-box;
+    padding: .3vw;
+
+    width: 150vw;
+    height: 15vw;
+
+    margin: .4vw 2vw;
+    border: 2px solid rgba(0, 153, 255, 0.3);
+    background: linear-gradient(to bottom right,
+    rgb(42, 50, 85),
+    rgba(0, 162, 255, 0.8),
+    rgb(52, 55, 104));
+    border-radius: 16px 8px;
+    
+
+    font-weight: bold;
+    position: relative;
+}
+
+#kurumsal .kapsam2 .kutu li p{
+    font-size: 1.2vw;
+    text-align: center;
+    width: 100%;
+}
+
+#kurumsal .kapsam2 .kutu li a{
+    display: inline;
+    text-decoration: none;
+    color: white;
+}
+
+
+#kurumsal .kapsam2 .kutu li img{
+    width: 10vw;
+    height: 10vw;
+    border-radius: 50%;
+    margin-top: .8vw;
+
+    border-radius: 50%;
+    position: absolute;
+    bottom: 1vw;
+    left: 50%;
+    transform: translate(-50%, 0);
+
+
+}
+
+
+
+#kurumsal .kapsam2 .kutu li:hover{
+    transform: translateZ(10px) rotateX(20deg) rotateY(30deg);
+    border-color: rgb(255, 255, 255);
+}

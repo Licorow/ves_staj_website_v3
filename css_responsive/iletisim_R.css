@@ -1,0 +1,65 @@
+@media screen and (max-width: 1000px) {
+    #iletisim .baslik{
+        font-size: 10vw;
+        margin-bottom: 0;
+    }
+
+    #iletisim .kapsam{
+        display: block;
+
+    
+    }
+
+    #iletisim .kapsam .sol{
+        width: 100%;
+        display: block;
+    }
+    #iletisim .kapsam .sag{
+    
+        width: 100%;
+        display: block;
+    }
+
+    #iletisim .kapsam .sol .sol-sol{
+        float: none;
+    }
+    #iletisim .kapsam .sag .sag-sag{
+        float: none;
+    }
+
+    #iletisim .kapsam .sol .baglanti{
+        width: 90%;
+        height: 14vw;
+        margin: 3vw auto;
+    }
+    #iletisim .kapsam .sol .baglanti .baglanti-sol{
+        width: 30%;
+        height: 14vw;
+        display: table-cell; 
+        vertical-align: middle;
+        font-size: 8vw;
+    
+    }
+    #iletisim .kapsam .sol .baglanti .baglanti-sag{
+        width: 70%;
+        font-size: 5.5vw;
+
+        height: 14vw;
+        display: table-cell; 
+        vertical-align: middle;
+        transition: .2s;
+    
+        font-weight: bold;
+    }
+    
+    
+    #iletisim .kapsam .sol .baglanti:hover .baglanti-sag{
+        font-size: 5.5vw;
+    }
+
+    #iletisim .kapsam .sag iframe{
+        margin: 5vw auto;
+        width: 80vw;
+        height: 50vw;
+    }
+}

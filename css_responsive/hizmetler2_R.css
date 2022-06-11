@@ -1,0 +1,75 @@
+@media screen and (max-width: 1000px) {
+    #hizmetler2 .baslik{
+        font-size: 8vw;
+    }
+    #hizmetler2 .baslik-alt{
+        font-size: 3vw;
+    }
+
+
+
+
+
+    #hizmetler2 .kapsam{
+        width: 90%;
+
+    }
+
+    #hizmetler2 .kapsam .kutu .sol{
+        position: static;
+
+
+        width: 100%;
+        display: inline-block;
+    }
+    #hizmetler2 .kapsam .kutu .orta{
+        position:  relative;
+
+        width: 100%;
+        display: inline-block;
+    }
+
+    #hizmetler2 .kapsam .kutu .orta{
+        position: relative;
+        top: 100%;
+        left: 50%;
+        transform: translate(-50%, 0);
+    }
+    #hizmetler2 .kapsam .kutu .sag{
+        position: static;
+        width: 100%;
+        display: inline-block;
+    }
+
+    #hizmetler2 .kapsam .kutu .eleman h1{
+        text-align: left;
+    
+    
+        padding-left: 1vw;
+        font-size: 4vw;
+    }
+    #hizmetler2 .kapsam .kutu .eleman p{
+        text-align: justify;
+    
+        padding: .5vw;
+        font-size: 2.9vw;
+    }
+
+    #hizmetler2 .kapsam .kutu .eleman{
+        height: 63vw;
+    }
+
+    #hizmetler2 .kapsam .kutu .eleman img{
+        height: 30vw;
+        top: 30vw;
+    
+    }
+
+    #hizmetler2 .kapsam .kutu .eleman{
+        width: 45%;
+        margin: 1vw;
+        display: inline-block;
+
+
+    }
+}

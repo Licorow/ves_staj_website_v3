@@ -1,0 +1,47 @@
+@media screen and (max-width: 1000px) {
+    #header{
+        font-size: 7vw;
+
+    }
+    
+
+    #header #nav-bar-show a:first-child{
+        display: block;
+        float: left;
+
+
+    }
+    #header #nav-bar-show a:last-child{
+        display: block;
+        float: right;
+        position: relative;
+
+    }
+
+    
+    #header nav a:not(#header nav a:first-child,  #header nav a:nth-child(2)){
+        width: 100%;
+
+    }
+    #nav-bar-show{
+        display: block;
+    }
+    #nav-bar-hide{
+        background-color: #ffffff;  
+        color: #4b37fc;
+        position: absolute;
+        top: -100vh;
+        left: 0;
+        text-align: center;
+        transition: .5s;
+        display: table;
+    }
+    #nav-bar-hide a{
+        display: table-cell;
+        margin-top: 4vw;
+    }
+
+
+    
+    
+}

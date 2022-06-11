@@ -1,0 +1,145 @@
+
+#hizmetler2{
+    width: 100%;
+    min-height: 60vw;
+    text-align: center;
+
+    padding-top: 5vw;
+
+
+
+}
+
+#hizmetler2 .baslik{
+    color: #000000;
+    font-size: 2.5vw;
+    margin-bottom: 0;
+}
+#hizmetler2 .baslik-alt{
+    color: #000000;
+    font-size: 1vw;
+    margin-top: 1vw;
+    margin-bottom: 3vw;
+}
+
+#hizmetler2 .kapsam{
+    width: 60%;
+
+    margin: 0 auto;
+}
+#hizmetler2 .kapsam .kutu{
+    width: 100%;
+    position: relative;
+}
+#hizmetler2 .kapsam .kutu a{
+    display: block;
+    text-decoration: none;
+}
+#hizmetler2 .kapsam .kutu .sol, #hizmetler2 .kapsam .kutu .orta, #hizmetler2 .kapsam .kutu .sag{
+    width: 28%;
+    display: inline-block;
+    background-color: transparent;
+
+
+}
+#hizmetler2 .kapsam .kutu .sol{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+#hizmetler2 .kapsam .kutu .orta{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+#hizmetler2 .kapsam .kutu .sag{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+#hizmetler2 .kapsam .kutu .eleman{
+    color: #ffffff;
+    width: 100%;
+    height: 18vw;
+    overflow: hidden;
+    position: relative;
+    border-radius: 10px;
+    margin-bottom: 5vw;
+    background: linear-gradient(to bottom, dodgerblue, rgb(151, 203, 255));
+    border: 2px solid white;
+    cursor: pointer;
+
+
+
+}
+#hizmetler2 .kapsam .kutu .eleman .cubuk{
+    width: 500%;
+    background: rgba(255, 255, 255, 0.6);
+    filter: drop-shadow(1px 1px 5px rgb(255, 255, 255));
+
+    top: 0;
+    transform: translate(0,0) rotate(45deg);
+
+    height: 5vw;
+    position: absolute;
+    transition: 1s;
+    z-index: 5;
+
+}
+#hizmetler2 .kapsam .kutu .eleman:hover{
+    filter: drop-shadow(1px 1px 4px rgb(196, 196, 196));
+}
+#hizmetler2 .kapsam .kutu .eleman:hover .cubuk{
+    animation: cubukAnimation;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    background-attachment: fixed;
+
+
+
+}
+@keyframes cubukAnimation{
+    0%{
+        transform: translate(0,0) rotate(45deg);
+      }
+      100%{
+        transform: translate(-100%,50%) rotate(45deg);
+      
+      }
+  }
+
+
+
+
+#hizmetler2 .kapsam .kutu .eleman img{
+    width: 90%;
+    height: 9vw;
+    position: absolute;
+    top: 8vw;
+    left: 50%;
+    transform: translate(-50%, 0);
+    border-radius: 20px;
+
+}
+
+#hizmetler2 .kapsam .kutu .eleman:hover{
+    
+    /*
+    
+    border: 2px solid rgb(0, 0, 0);
+
+    */
+}
+
+#hizmetler2 .kapsam .kutu .eleman h1{
+    text-align: center;
+
+    font-size: 1.1vw;
+}
+#hizmetler2 .kapsam .kutu .eleman p{
+    text-align: justify;
+
+    padding: .5vw;
+    font-size: 1.05vw;
+}

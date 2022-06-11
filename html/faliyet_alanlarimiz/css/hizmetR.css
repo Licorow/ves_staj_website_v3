@@ -1,0 +1,62 @@
+@media screen and (max-width: 1000px) {
+    #hizmet .baslik{
+        font-size: 8vw;
+        margin-top: 10vw;
+    }
+
+    #hizmet .metin{
+        font-size: 5vw;
+        padding-top: 5vw;
+        text-align: justify;
+    
+    }
+
+    #hizmet .icerik{
+        display: block;
+        margin-bottom: 10vw;
+    }
+
+    #hizmet .fotograf{
+        width: 90%;
+        margin-top: 5vw;
+    }
+
+
+    #hizmet .B{
+        font-size: 8vw;
+    }
+    #hizmet .B-alt{
+        font-size: 3vw;
+    }
+
+}
+
+@media screen and (min-width: 1000px) {
+
+
+}
+  
+#hizmet .fotografsdfsdfsf{
+    animation: animasyonAdi 0.82s cubic-bezier(.36,.07,.19,.97) both;
+    transform: translate3d(0, 0, 0);
+    backface-visibility: hidden;
+    perspective: 1000px;
+}
+
+  @keyframes animasyonAdi {
+    10%, 90% {
+      transform: translate3d(-1px, 0, 0);
+    }
+    
+    20%, 80% {
+      transform: translate3d(2px, 0, 0);
+    }
+  
+    30%, 50%, 70% {
+      transform: translate3d(-4px, 0, 0);
+    }
+  
+    40%, 60% {
+      transform: translate3d(4px, 0, 0);
+    }
+  }

@@ -1,0 +1,26 @@
+@media screen and (max-width: 1000px) {
+    .gallery_scroller div.colored_card {
+        height: 30vw;
+        width: 30vw;
+        border-radius: 10px;
+       }
+    
+       .gallery_scroller div.colored_card img{
+        height: 30vw;
+        width: 30vw;
+    }
+
+    #imgtext {
+        bottom: 5%;
+        left: 5%;
+        font-size: 6.5vw;
+    }
+      
+    #expandedImg{
+
+        max-height: 70vh;
+        max-width: 100%;
+    
+    }
+      
+}

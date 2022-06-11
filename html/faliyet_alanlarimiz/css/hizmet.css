@@ -1,0 +1,87 @@
+
+
+#hizmet .B{
+    color: #000000;
+    font-size: 2.5vw;
+    margin-bottom: 0;
+    display: none;
+}
+#hizmet .B-alt{
+    color: #000000;
+    font-size: 1vw;
+    margin-top: 1vw;
+    margin-bottom: 3vw;
+    display: none;
+}
+
+body{
+
+}
+#hizmet .kapsam{
+    
+}
+
+#hizmet{
+    width: 100%;
+    min-height: 1vw;
+    text-align: center;
+    overflow-x: hidden;
+    padding-top: 5vw;
+    margin: 0;
+    padding: 0;
+    display: block;
+
+    background: rgb(255, 255, 255);
+}
+
+#hizmet .baslik{
+    color: rgb(0, 105, 209);
+    font-size: 2.8vw;
+    text-align: center;
+    display: grid;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 2vw;
+    padding-top: 2vw;
+    letter-spacing: 5px;
+}
+
+#hizmet .icerik{
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 2vw;
+}
+#hizmet .metin{
+    padding: 5vw 5vw;
+    font-size: 1.5vw;
+    text-align: left;
+    color: rgb(0, 105, 211);
+    font-weight: 700;
+
+}
+#hizmet .yazi{
+
+}
+#hizmet .fotograf{
+    font-size: 1vw;
+    margin: 2vw;
+    text-align: justify;
+    border-radius: 10px;
+    width: 40vw;
+
+    filter: drop-shadow(1px 1px 5px rgb(255, 255, 255));
+}
+
+
+#hizmet .yazdasdasdasdsi{
+    color: #000000;
+    font-size: 1vw;
+    margin-top: 1vw;
+    margin-bottom: 3vw;
+    padding: 20px;
+    text-align: justify;
+}

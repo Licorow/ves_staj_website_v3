@@ -1,0 +1,102 @@
+
+#iletisim{
+    width: 100%;
+    min-height: 50vh;
+    text-align: center;
+
+    padding-top: 5vw;
+    margin-bottom: 4vw;
+}
+#iletisim .baslik{
+    color: #272643;
+    font-size: 2.5vw;
+    margin-bottom: 0;
+}
+#iletisim .kapsam{
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+#iletisim .kapsam .sol{
+    width: 50%;
+}
+#iletisim .kapsam .sag{
+
+    width: 50%;
+}
+#iletisim .kapsam .sol .sol-sol{
+    float: right;
+}
+#iletisim .kapsam .sag .sag-sag{
+    float: left;
+}
+#iletisim .kapsam .sag iframe{
+    margin: 2vw 2vw;
+    width: 35vw;
+    height: 35vw;
+
+
+}
+#iletisim .kapsam .sol .baglanti{
+
+
+    border-radius: 10px;
+    overflow: hidden;
+
+    margin: 2vw 2vw;
+    width: 20vw;
+    height: 4vw;
+    background-color: rgb(41,55,69);
+    color: #ffffff;
+    text-decoration: none;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: table;
+
+    border: 1px solid #bfdfff;
+
+
+ 
+
+}
+#iletisim .kapsam .sol .baglanti .baglanti-sol{
+    width: 5vw;
+    height: 4vw;
+    display: table-cell; 
+    vertical-align: middle;
+    font-size: 2vw;
+
+
+
+}
+#iletisim .kapsam .sol .baglanti .baglanti-sag{
+    width: 15vw;
+    font-size: 1.2vw;
+    background-color: dodgerblue;
+    height: 4vw;
+    display: table-cell; 
+    vertical-align: middle;
+    color: #ffffff;
+    transition: .2s;
+
+    font-weight: bold;
+}
+
+#iletisim .kapsam .sol .baglanti:hover{
+    border: 1px solid white;
+}
+
+#iletisim .kapsam .sol .baglanti:hover .baglanti-sag{
+    background-color: rgb(41,55,69);
+    color: #ffffff;
+
+    font-size: 1.3vw;
+
+
+}

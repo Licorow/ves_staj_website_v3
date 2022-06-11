@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VES - Galeri</title>
+
+    <link rel="stylesheet" href="../css/_normalize.css" type="text/css">
+    <link rel="stylesheet" href="../css/_myCss.css" type="text/css">
+    <script src="https://kit.fontawesome.com/b423602998.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.2.6/jquery.min.js"></script>
+    
+    <link rel="stylesheet" href="../css/_main_Font.css" type="text/css">
+    <link rel="icon" type="image/png" sizes="16x16" href="../img/fav.png">
+    <meta name="description" content="Ves Otomasyon, 2013 yılında Sakarya ilinde kurulmuş bir otomasyon şirketidir. Endüstriyel otomasyon konusunda yenilikçi, geliştirmeyi hedef edinmiş, deneyimleri ile, yurtiçinde ve yurtdışında her türlü ihtiyaca yönelik üst düzey otomasyon çözümünü müşterilerine sunmaktadır.">
+    <meta name="keywords" content="ves robotik,ves otomasyon,volkan akbulut,emre akbulut,sakarya robot şirketleri,endüstiriyel robot,türkiye robot şirketleri,ves robotik ve otomasyon,ves sakarya,robotik otomasyon">
+    <meta name="robots" content="index, follow">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head>
+<body onload="ayarla();"> 
+
+<link rel="stylesheet" href="../css/loading.css" type="text/css">
+    <div id="loading">
+        <div class="lds-default"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+    </div> 
+    <script type="text/javascript" src="../js/loading.js"></script>
+
+
+    <link rel="stylesheet" href="../css/header.css" type="text/css">
+    <link rel="stylesheet" href="../css_responsive/header_R.css" type="text/css">
+        <header id="header">
+            <nav class="topnav" id="myTopnav">
+                <span id="nav-bar-show">         
+                    <a href="../index.html">VES</a>
+                    <a onclick="headerMobile()"><i class="fa-solid fa-bars"></i></a>
+                </span>
+    
+                <span class="clear"></span>
+    
+                <span id="nav-bar-hide">
+                    <a href="../index.html#hizmetler2">ROBOT</a>
+                    <a onclick="smoothScroll(document.getElementById('galeri'))">XXXXXXXX</a>
+                    <a href="#" id="galery">GALERİ</a>
+                    <a href="../index.html#kurumsal">KURUMSAL</a>
+                    <a href="../index.html#referanslar">REFERANSLAR</a>
+                    <a href="../index.html#iletisim">İLETİŞİM</a>
+
+    
+                </span>
+    
+    
+    
+            </nav>
+    
+        </header>
+    
+    
+
+
+
+
+<link rel="stylesheet" href="../css/galery.css" type="text/css">
+<link rel="stylesheet" href="../css_responsive/galery_R.css" type="text/css">
+
+
+<div id="galery-ust">
+    <div class="container">
+        <!-- Close the image -->
+        <span onclick="this.parentElement.style.display='none'" class="closebtn">
+            <i class="fa-solid fa-xmark"></i>
+        </span>
+      
+        <!-- Expanded image -->
+        <img id="expandedImg">
+
+      
+        <!-- Image text -->
+        <div id="imgtext"></div>
+    </div> 
+</div>
+
+<div id="paginated_gallery" class="gallery">
+    <div class="gallery_scroller">
+
+        <div class="colored_card"> 
+            <img onclick="myFunction(this);"
+            src="../Galeri_Resimler/01_ves-Fabrika.jpeg" 
+            alt="Vil Kauçuk Fabrikasından Kurduğumuz Robotlardan biri">
+        </div>
+
+        <div class="colored_card">       
+            <img onclick="myFunction(this);"
+            src="../Galeri_Resimler/02_ves-Fabrika.jpeg" 
+            alt="Vil Kauçuk Fabrikasından Kurduğumuz Robotlardan biri">
+        </div>
+
+        <div class="colored_card"> 
+            <img onclick="myFunction(this);"
+            src="../Galeri_Resimler/03_ves-kawazaki-robot.jpg" 
+            alt="Kullandığımız Robotlardan Biri">
+        </div>
+
+        <div class="colored_card"> 
+            <img onclick="myFunction(this);"
+            src="../Galeri_Resimler/04_ves-kawazaki-robot.jpg" 
+            alt="Kullandığımız Robotlardan Biri">
+        </div>
+
+        <div class="colored_card"> 
+            <img onclick="myFunction(this);"
+            src="../Galeri_Resimler/05_ves-kawazaki-robot-kaynak.JPG" 
+            alt="Kullandığımız Robotlardan Biri Kaynak Yaparken">
+        </div>
+
+
+
+
+
+    </div>
+    <span class="btn prev">
+        <i class="fa-solid fa-arrow-left"></i>
+    </span>
+    <span class="btn next">
+        <i class="fa-solid fa-arrow-right"></i>
+    </span>
+</div>
+
+
+
+
+<script src="../js/galery.js"></script>
+<script src="../js/header_R.js"></script>
+</body>
+
+</html>

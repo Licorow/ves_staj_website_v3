@@ -1,0 +1,41 @@
+#referanslar .kapsam .kutu{
+    display: inline;
+
+}
+#referanslar .kapsam{
+    width: 70%;
+}
+#referanslar .kapsam .kutu img{
+    width: 15%;
+    border: 1px solid white;
+    padding: 1vw;
+    margin: 1vw 1vw;
+    background-color: white;
+    margin-left: 1vw;
+    border-radius: 10px;
+
+}
+@media screen and (max-width: 1000px) {
+    #referanslar .baslik{
+        font-size: 9vw;
+        margin-bottom: 0;
+    }
+    #referanslar .kapsam .kutu{
+        display: inline;
+    
+    }
+    #referanslar .kapsam{
+        width: 90%;
+    }
+    #referanslar .kapsam .kutu img{
+        width: 25%;
+        border: 1px solid white;
+        padding: 1vw;
+        margin: 1vw 1vw;
+        background-color: white;
+        margin-left: 1vw;
+        border-radius: 10px;
+    
+    }
+
+}

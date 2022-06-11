@@ -1,0 +1,54 @@
+#referanslar{
+    width: 100%;
+    min-height: 50vh;
+    text-align: center;
+    padding-top: 5vw;
+}
+
+#referanslar .baslik{
+    color: #000000;
+    font-size: 2.5vw;
+    margin-bottom: 2vw;
+}
+#referanslar .kapsam{
+    width: 70%;
+    margin: 0 auto;
+}
+#referanslar .kapsam .kutu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+#referanslar .kapsam .kutu img{
+    width: 20%;
+    border: 1px solid white;
+    padding: 1vw;
+    margin: 1vw 1vw;
+    background-color: white;
+    margin-left: 1vw;
+    border-radius: 10px;
+    
+    box-shadow: 
+    1px 1px 3px rgb(0, 238, 255),
+    -1px -1px 3px rgb(160, 150, 255),
+    -1px 1px 3px rgb(160, 150, 255),
+    1px -1px 3px rgb(0, 238, 255);
+
+    box-shadow: 
+    1px 1px 3px dodgerblue,
+    -1px -1px 3px dodgerblue,
+    -1px 1px 3px dodgerblue,
+    1px -1px 3px #4b37fc;
+}
+
+
+#referanslar img{
+    width: 20%;
+    border: 1px solid white;
+    padding: 1vw;
+    background-color: white;
+    margin-left: 1vw;
+    border-radius: 10px;
+}

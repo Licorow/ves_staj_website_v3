@@ -1,0 +1,157 @@
+@media screen and (max-width: 1000px) {
+
+    
+    #kurumsal{
+        background: white;
+
+        
+    }
+    #kurumsal .kapsam2 .kutu h1{
+        font-size: 9vw;
+    }
+
+    #kurumsal .baslik{
+        font-size: 8vw;
+    }
+
+
+    :root{
+        --genislik: 5px;
+    }
+
+    #kurumsal .kapsam{
+        width: 100%;
+        min-height: 150vw;
+        background: rgba(0, 0, 0, 0.8);
+        border-radius: 0;
+        
+        background: 
+        repeating-radial-gradient(
+          circle at 0 100%, 
+          rgb(0, 0, 0),
+          rgb(34, 34, 34) var(--genislik)
+        );
+
+        background: repeating-linear-gradient(-45deg, rgb(0, 0, 0), rgb(0, 0, 0) 5px, rgb(34, 34, 34) 5px, rgb(34, 34, 34) 10px);
+
+    }
+
+
+    #kurumsal .kapsam .kutucuk{
+        background: rgba(0, 0, 0, 0);
+
+    }
+
+    #kurumsal .kapsam .ust, #kurumsal .kapsam .orta{
+        min-height: 40vw;
+        overflow: visible;
+    }
+    #kurumsal .kapsam .ust .kutu h1{
+        font-size: 6vw;
+    }
+    #kurumsal .kapsam .ust .kutu p{
+        font-size: 4vw;
+    }
+    
+    
+    #kurumsal .kapsam .orta .kutu h1{
+        font-size: 6vw;
+    
+    }
+    #kurumsal .kapsam .orta .kutu p{
+        font-size: 3.2vw;
+ 
+    }
+    
+
+
+
+
+    #kurumsal .kapsam2{
+        width: 100vw;
+        min-height: 230vw;
+        margin: 0 auto;
+        padding-top: 5vw;
+        overflow: hidden;
+        color: #ebebeb;
+    
+        display: block;
+        justify-content: center;
+        align-items: center;
+        text-align: center;  
+
+
+        background: transparent;
+
+    }
+
+    #kurumsal .kapsam2 .kutu h1{
+        color: black;
+
+        text-shadow:
+        1px 1px 3px rgb(255, 255, 255),
+        -1px -1px 3px rgb(255, 255, 255),
+        1px -1px 3px rgb(255, 255, 255),
+        -1px 1px 3px rgb(255, 255, 255);
+
+        letter-spacing: 3px;
+
+    }
+
+
+
+    #kurumsal .kapsam2 .kutu{
+        background: transparent;
+    }
+
+
+    #kurumsal .kapsam2 .kutu ul{
+        text-align: center;
+        list-style: none;
+    
+        display: block;
+        justify-content: initial;
+        align-items: stretch;
+        width: 100%;
+
+    }
+    #kurumsal .kapsam2 .kutu li{
+        display: inline-table;
+        border-radius: 8px;
+        width: 40%;
+       
+        margin: 5vw 2vw;
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        background: linear-gradient(to bottom right,
+        rgb(42, 50, 85),
+        rgba(0, 162, 255, 0.8),
+        rgb(52, 55, 104));
+        
+        font-weight: bold;
+        color: white;
+
+        min-height: 50vw;
+        padding: 0;
+        padding-top: 3vw;
+        position: relative;
+
+    }
+
+    #kurumsal .kapsam2 .kutu li p{
+        font-size: 5.5vw;
+
+    }
+    
+
+    #kurumsal .kapsam2 .kutu li img{
+        width: 35vw;
+        height: 35vw;
+        border-radius: 50%;
+        margin-top: .8vw;
+        position: absolute;
+        bottom: 2vw;
+        left: 50%;
+        transform: translate(-50%, 0);
+    }
+
+}

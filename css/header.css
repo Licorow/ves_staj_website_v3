@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+#header{
+
+    font-family: 'Ubuntu', sans-serif;
+
+    background-color: #ffffff;
+    border: 0 solid #030e12;
+    border-width: 0 0 2px 0;
+
+    color: #4b37fc;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: block;
+
+    z-index: 10;
+
+    transition: .4s;
+    font-size: 1.2vw;
+
+}
+#header nav #galery{
+    color: orange;
+}
+#nav-bar-show{
+    display: inline;
+}
+#nav-bar-hide{
+    display: inline;
+}
+
+
+#header nav{
+    text-align: center;
+}
+#header nav a:nth-child(2){
+    display: none;
+}
+
+#header nav a{
+    display: inline-block;
+    cursor: pointer;
+    color: dodgerblue;
+    text-decoration: none;
+    letter-spacing: 5px;
+
+    margin: .5vw 1vw;
+    transition: .2s;
+    padding: 1vw;
+    text-align: center;
+    font-weight: bold;
+
+}
+
+
+
+
+@media screen and (min-width: 1000px) {
+    #header nav a:hover{
+        color: #000000;
+
+    }
+}
+
+
+#header.saydam{
+    background-color: rgba(65, 65, 65, 0.034);
+    border-color: transparent;
+
+    color: #4b37fc;
+}
+
+#header .kucult a{
+    letter-spacing: 2px;
+    margin: 0;
+    font-size: 1vw;
+}
+
+
+@media screen and (max-width: 1000px) {
+    #header.saydam nav #nav-bar-show a{
+        color: #ffffff
+    }
+    #header .kucult a{
+        font-size: 4vw;
+    }
+    #header a.mobilll{
+        margin: .5vw 1vw;
+        font-size: 6.5vw;
+    }
+    
+}
+@media screen and (min-width: 1000px) {
+    #header.saydam nav a{
+        color: #ffffff
+    }
+
+}
